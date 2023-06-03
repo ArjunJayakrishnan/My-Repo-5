@@ -26,7 +26,7 @@ scrnshot- [https://drive.google.com/file/d/1amSmwLy-pEgJdRyE2L6QsDU-KuiDBbTd/vie
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-5]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
