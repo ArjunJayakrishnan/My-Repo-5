@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+
+		<link href="style.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Frontend Mentor | Notifications page</title>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h1>Notifications</h1>
+				<div><p class="count">3</p></div>
+				<h2 class="h2 hover">Mark all as read</h2>
+			</header>
+			<div id="notifications">
+				<div class="notification new">
+					<img src="assets\images\avatar-mark-webber.webp" alt="users's face" />
+					<div class="writing">
+						<p>
+							<span class="name hover">Mark Webber</span>&nbsp;reacted to your
+							recent post&nbsp;
+							<span class="message hover"> My first tournament today!</span>
+							<span class="emoji">♦️</span>
+						</p>
+						<p class="time-passed">1 min ago</p>
+					</div>
+				</div>
+				<div class="notification new">
+					<img src="assets\images\avatar-angela-gray.webp" alt="users's face" />
+					<div class="writing">
+						<p>
+							<span class="name hover">Angela Gray</span>
+							&nbsp;followed you
+							<span class="emoji">♦️</span>
+						</p>
+						<p class="time-passed">5 m ago</p>
+					</div>
+				</div>
+				<div class="notification new">
+					<img
+						src="assets\images\avatar-jacob-thompson.webp"
+						alt="users's face"
+					/>
+					<div class="writing">
+						<p>
+							<span class="name hover">Jacob Thompson</span>
+							&nbsp;has joined your group&nbsp;
+							<span class="message hover"> Chess Club</span>
+							<span class="emoji">♦️</span>
+						</p>
+						<p class="time-passed">1 day ago</p>
+					</div>
+				</div>
+				<div class="notification">
+					<img
+						src="assets\images\avatar-rizky-hasanuddin.webp"
+						alt="users's face"
+					/>
+					<div class="writing">
+						<p>
+							<span class="name hover">Rizky Hasanuddin</span>
+							&nbsp;sent you a private message&nbsp;
+						</p>
+						<p class="time-passed">5 days ago</p>
+						<div class="pvt-msg">
+							<p>
+								Hello, thanks for setting up the Chess Club. I've been a member
+								for a few weeks now and I'm already having lots of fun and
+								improving my game.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="notification">
+					<img
+						src="assets\images\avatar-kimberly-smith.webp"
+						alt="users's face"
+					/>
+					<div class="writing">
+						<p>
+							<span class="name hover">Kimberly Smith </span>
+							&nbsp;commented on your picture &nbsp;
+						</p>
+						<p class="time-passed">1 week ago</p>
+					</div>
+					<img
+						src="assets\images\image-chess.webp"
+						alt="female playing chess"
+						class="commented-pic"
+					/>
+				</div>
+				<div class="notification">
+					<img
+						src="assets\images\avatar-nathan-peterson.webp"
+						alt="users's face"
+					/>
+					<div class="writing">
+						<p>
+							<span class="name hover">Nathan Peterson </span>
+							&nbsp;reacted to your recent post &nbsp;
+							<span class="message hover"
+								>5 end-game strategies to increase your win rate</span
+							>
+						</p>
+						<p class="time-passed">2 weeks ago</p>
+					</div>
+				</div>
+				<div class="notification">
+					<img src="assets\images\avatar-anna-kim.webp" alt="users's face" />
+					<div class="writing">
+						<p>
+							<span class="name hover">Anna Kim </span>
+							&nbsp;left the group &nbsp;
+							<span class="message hover"> Chess Club</span>
+						</p>
+						<p class="time-passed">2 weeks ago</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js" defer></script>
+	</body>
+</html>
