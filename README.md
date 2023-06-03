@@ -27,7 +27,7 @@ scrnshot- [https://drive.google.com/file/d/1amSmwLy-pEgJdRyE2L6QsDU-KuiDBbTd/vie
 ### Links
 
 - Solution URL: [https://github.com/ArjunJayakrishnan/My-Repo-5]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://647b1f9533068070972c9752--astounding-blini-056001.netlify.app/]
 
 ### Built with
 
